@@ -1,0 +1,96 @@
+.image {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.profile-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+}
+
+.profile-card {
+  max-width: 370px;
+  width: 100%;
+  background-color: gray;
+  box-shadow: 0 5px 10px 5px;
+  border-radius: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: azure;
+}
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.job {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.media-buttons {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  margin: 0 7px;
+  color: azure;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button {
+  color: azure;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: blue;
+  margin: 0 15px;
+  padding: 5px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
